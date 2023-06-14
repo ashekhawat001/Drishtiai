@@ -1,0 +1,192 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mka"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:3:5-79
+11-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:3:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:4:1-77
+12-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:4:18-74
+13
+14    <queries>
+14-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:40:13-52:11
+15
+16        <!-- If your app checks for call support -->
+17        <intent>
+17-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:43:3-47:12
+18            <action android:name="android.intent.action.VIEW" />
+18-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:44:5-57
+18-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:44:13-54
+19
+20            <data android:scheme="tel" />
+20-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:45:5-34
+20-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:45:11-31
+21        </intent>
+22        <intent>
+22-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:48:3-51:12
+23            <action android:name="android.intent.action.VIEW" />
+23-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:44:5-57
+23-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:44:13-54
+24
+25            <category android:name="google.android.gms.maps" />
+25-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:50:3-54
+25-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:50:13-51
+26        </intent>
+27    </queries>
+28
+29    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+29-->[:geolocator_android] C:\Users\Asus\Documents\Projects\mka\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-77
+29-->[:geolocator_android] C:\Users\Asus\Documents\Projects\mka\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-74
+30
+31    <permission
+31-->[androidx.core:core:1.9.0] C:\Users\Asus\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+32        android:name="com.example.mka.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+32-->[androidx.core:core:1.9.0] C:\Users\Asus\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+33        android:protectionLevel="signature" />
+33-->[androidx.core:core:1.9.0] C:\Users\Asus\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+34
+35    <uses-permission android:name="com.example.mka.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+35-->[androidx.core:core:1.9.0] C:\Users\Asus\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+35-->[androidx.core:core:1.9.0] C:\Users\Asus\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+36
+37    <application
+38        android:name="android.app.Application"
+38-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:7:9-42
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.9.0] C:\Users\Asus\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+40        android:icon="@mipmap/ic_launcher"
+40-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:8:9-43
+41        android:label="mka" >
+41-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:6:9-28
+42        <activity
+42-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:10:9-32:20
+43            android:name="com.example.mka.MainActivity"
+43-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:11:13-41
+44            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+44-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:15:13-163
+45            android:exported="true"
+45-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:12:13-36
+46            android:hardwareAccelerated="true"
+46-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:16:13-47
+47            android:launchMode="singleTop"
+47-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:13:13-43
+48            android:theme="@style/LaunchTheme"
+48-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:14:13-47
+49            android:windowSoftInputMode="adjustResize" >
+49-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:17:13-55
+50
+51            <!--
+52                 Specifies an Android theme to apply to this Activity as soon as
+53                 the Android process has started. This theme is visible to the user
+54                 while the Flutter UI initializes. After that, this theme continues
+55                 to determine the Window background behind the Flutter UI.
+56            -->
+57            <meta-data
+57-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:22:13-25:17
+58                android:name="io.flutter.embedding.android.NormalTheme"
+58-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:23:15-70
+59                android:resource="@style/NormalTheme" />
+59-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:24:15-52
+60
+61            <intent-filter>
+61-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:26:13-29:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:27:17-68
+62-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:27:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:28:17-76
+64-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:28:27-74
+65            </intent-filter>
+66            <!-- Provide required visibility configuration for API level 30 and above -->
+67
+68        </activity>
+69
+70        <!--
+71             Don't delete the meta-data below.
+72             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+73        -->
+74        <meta-data
+74-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:36:9-38:33
+75            android:name="flutterEmbedding"
+75-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:37:13-44
+76            android:value="2" />
+76-->C:\Users\Asus\Documents\Projects\mka\android\app\src\main\AndroidManifest.xml:38:13-30
+77
+78        <service
+78-->[:geolocator_android] C:\Users\Asus\Documents\Projects\mka\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-16:56
+79            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+79-->[:geolocator_android] C:\Users\Asus\Documents\Projects\mka\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-77
+80            android:enabled="true"
+80-->[:geolocator_android] C:\Users\Asus\Documents\Projects\mka\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-35
+81            android:exported="false"
+81-->[:geolocator_android] C:\Users\Asus\Documents\Projects\mka\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-37
+82            android:foregroundServiceType="location" />
+82-->[:geolocator_android] C:\Users\Asus\Documents\Projects\mka\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-53
+83
+84        <provider
+84-->[:image_picker_android] C:\Users\Asus\Documents\Projects\mka\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-18:20
+85            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+85-->[:image_picker_android] C:\Users\Asus\Documents\Projects\mka\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-82
+86            android:authorities="com.example.mka.flutter.image_provider"
+86-->[:image_picker_android] C:\Users\Asus\Documents\Projects\mka\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-74
+87            android:exported="false"
+87-->[:image_picker_android] C:\Users\Asus\Documents\Projects\mka\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+88            android:grantUriPermissions="true" >
+88-->[:image_picker_android] C:\Users\Asus\Documents\Projects\mka\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-47
+89            <meta-data
+89-->[:image_picker_android] C:\Users\Asus\Documents\Projects\mka\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-17:75
+90                android:name="android.support.FILE_PROVIDER_PATHS"
+90-->[:image_picker_android] C:\Users\Asus\Documents\Projects\mka\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-67
+91                android:resource="@xml/flutter_image_picker_file_paths" />
+91-->[:image_picker_android] C:\Users\Asus\Documents\Projects\mka\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-72
+92        </provider>
+93
+94        <activity
+94-->[:url_launcher_android] C:\Users\Asus\Documents\Projects\mka\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+95            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+95-->[:url_launcher_android] C:\Users\Asus\Documents\Projects\mka\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+96            android:exported="false"
+96-->[:url_launcher_android] C:\Users\Asus\Documents\Projects\mka\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+97            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+97-->[:url_launcher_android] C:\Users\Asus\Documents\Projects\mka\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+98        <activity
+98-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Asus\.gradle\caches\transforms-3\f568b3e0e4b3738147ed358a145ad2d6\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+99            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+99-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Asus\.gradle\caches\transforms-3\f568b3e0e4b3738147ed358a145ad2d6\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+100            android:exported="false"
+100-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Asus\.gradle\caches\transforms-3\f568b3e0e4b3738147ed358a145ad2d6\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+101            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+101-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Asus\.gradle\caches\transforms-3\f568b3e0e4b3738147ed358a145ad2d6\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+102
+103        <meta-data
+103-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Asus\.gradle\caches\transforms-3\6b0daa5fb4c2eb7e8b55778df9b972f6\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+104            android:name="com.google.android.gms.version"
+104-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Asus\.gradle\caches\transforms-3\6b0daa5fb4c2eb7e8b55778df9b972f6\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+105            android:value="@integer/google_play_services_version" />
+105-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Asus\.gradle\caches\transforms-3\6b0daa5fb4c2eb7e8b55778df9b972f6\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+106
+107        <uses-library
+107-->[androidx.window:window:1.0.0-beta04] C:\Users\Asus\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+108            android:name="androidx.window.extensions"
+108-->[androidx.window:window:1.0.0-beta04] C:\Users\Asus\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+109            android:required="false" />
+109-->[androidx.window:window:1.0.0-beta04] C:\Users\Asus\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+110        <uses-library
+110-->[androidx.window:window:1.0.0-beta04] C:\Users\Asus\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+111            android:name="androidx.window.sidecar"
+111-->[androidx.window:window:1.0.0-beta04] C:\Users\Asus\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+112            android:required="false" />
+112-->[androidx.window:window:1.0.0-beta04] C:\Users\Asus\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+113    </application>
+114
+115</manifest>

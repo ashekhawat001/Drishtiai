@@ -1,0 +1,15 @@
+# Target labels
+ nuget-populate
+# Source files and their labels
+C:/Users/Asus/Documents/Projects/mka/build/windows/_deps/nuget-subbuild/CMakeFiles/nuget-populate
+C:/Users/Asus/Documents/Projects/mka/build/windows/_deps/nuget-subbuild/CMakeFiles/9a94458c02d7ec3ea9874c98265237ed/nuget-populate.rule
+C:/Users/Asus/Documents/Projects/mka/build/windows/_deps/nuget-subbuild/CMakeFiles/7eda9572c655502da664283bc6e080cf/nuget-populate-complete.rule
+C:/Users/Asus/Documents/Projects/mka/build/windows/_deps/nuget-subbuild/CMakeFiles/ebbd9becff4097cd6aef2a02c06e0d11/nuget-populate-build.rule
+C:/Users/Asus/Documents/Projects/mka/build/windows/_deps/nuget-subbuild/CMakeFiles/ebbd9becff4097cd6aef2a02c06e0d11/nuget-populate-configure.rule
+C:/Users/Asus/Documents/Projects/mka/build/windows/_deps/nuget-subbuild/CMakeFiles/ebbd9becff4097cd6aef2a02c06e0d11/nuget-populate-copyfile.rule
+C:/Users/Asus/Documents/Projects/mka/build/windows/_deps/nuget-subbuild/CMakeFiles/ebbd9becff4097cd6aef2a02c06e0d11/nuget-populate-download.rule
+C:/Users/Asus/Documents/Projects/mka/build/windows/_deps/nuget-subbuild/CMakeFiles/ebbd9becff4097cd6aef2a02c06e0d11/nuget-populate-install.rule
+C:/Users/Asus/Documents/Projects/mka/build/windows/_deps/nuget-subbuild/CMakeFiles/ebbd9becff4097cd6aef2a02c06e0d11/nuget-populate-mkdir.rule
+C:/Users/Asus/Documents/Projects/mka/build/windows/_deps/nuget-subbuild/CMakeFiles/ebbd9becff4097cd6aef2a02c06e0d11/nuget-populate-patch.rule
+C:/Users/Asus/Documents/Projects/mka/build/windows/_deps/nuget-subbuild/CMakeFiles/ebbd9becff4097cd6aef2a02c06e0d11/nuget-populate-test.rule
+C:/Users/Asus/Documents/Projects/mka/build/windows/_deps/nuget-subbuild/CMakeFiles/ebbd9becff4097cd6aef2a02c06e0d11/nuget-populate-update.rule
